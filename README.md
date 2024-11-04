@@ -1,4 +1,4 @@
-# Construct_Week_Unit3_Project
+
 This project implements automated testing for the OpenCart e-commerce platform using Cypress and the Page Object Model (POM) design pattern. It provides comprehensive end-to-end testing of critical user journeys including account management, shopping experience, and affiliate program features.
 Features Tested
 User Registration and Authentication
@@ -72,7 +72,7 @@ it('should perform the complete workflow', () => {
     homePage.EnterURL();
     homePage.VerifyLogoVisibility();
     homePage.GoToRegisterPage();
-    registerPage.EnterFirstName('Mohit');
+    registerPage.EnterFirstName('robin');
     // ... additional registration steps
 
     // Logout & Login
@@ -90,14 +90,14 @@ it('should perform the complete workflow', () => {
 it('Affiliate Page', () => {
     // Login
     homePage.EnterURL();
-    loginPage.EnterEmail('sushant4@gmail.com');
+    loginPage.EnterEmail('robin25june.com');
     // ... login steps
 
     // Affiliate Registration
     affiliatePage.clickOnAffiliate();
     affiliatePage.FillAffiliateForm({
-        company: 'Mohit Inc.',
-        website: 'www.Mohitinc.com',
+        company: 'robin Inc.',
+        website: 'www.robin.com',
         // ... additional form details
     });
     affiliatePage.VerifyAffiliateSuccess();
@@ -109,7 +109,7 @@ npm (Node Package Manager)
 Installation
 Clone the repository:
 
-git clone https://github.com/Mohit-test-coder/Construct_Week_Unit3_Project.git
+git clone https://github.com/robin-test-coder/Construct_Week_Unit3_Project.git
 Navigate to project directory:
 
 cd Construct_Week_Unit3_Project
@@ -151,7 +151,7 @@ This project uses the OpenCart demo site for testing purposes
 Test data is currently hardcoded and should be moved to fixtures for production use
 Some tests may need adjustment based on the demo site's state
 Author
-Mohit Gupta
+robin kushwaha
 Java Programming Concepts Project
 Overview
 This project demonstrates key Java programming concepts including interface implementation, geometric shape calculations, and autoboxing/unboxing operations. It serves as an educational resource for understanding object-oriented programming in Java.
