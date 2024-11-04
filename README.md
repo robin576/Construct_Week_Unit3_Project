@@ -78,7 +78,7 @@ it('should perform the complete workflow', () => {
     // Logout & Login
     logoutPage.Logout();
     homePage.GoToLoginPage();
-    loginPage.EnterEmail('sushant4@gmail.com');
+    loginPage.EnterEmail('robin25june.com');
     // ... login steps
 
     // Shopping & Checkout
